@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">android_12_01</string>
+    <string name="readDataButton">Adatok olvasása</string>
+    <string name="insertDataButton">Adatok rögzítése</string>
+    <string name="modifyDataButton">Adatok módosítása</string>
+    <string name="deleteDataButton">Adat törlése</string>
+    <string name="lastname">Vezetéknév</string>
+    <string name="firstname">Keresztnév</string>
+    <string name="grade">Jegy</string>
+    <string name="insert_InsertButton">Rögzítés</string>
+    <string name="insert_backButton">Vissza</string>
 </resources>
