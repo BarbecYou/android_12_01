@@ -57,18 +57,23 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, InsertActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
         binding.dataModifyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this, UpdateActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
         binding.dataDeleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this, DeleteActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
     }
