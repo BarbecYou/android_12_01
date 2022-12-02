@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DeleteActivity">
+    tools:context=".DeleteActivity"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/editTextId_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID" />
+
+    <Button
+        android:id="@+id/buttonDelete_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Törlés" />
+    <Button
+        android:id="@+id/buttonBack_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vissza" />
+
+</LinearLayout>
